@@ -2,7 +2,7 @@
 JackThaDripper2.py is my first experiment with  tkinter.
 It's primary function is to produce G-code for filling molds with a custom designed syringe mechanism mounted to a 3d printer.
 
-There's no defensive programming for inputs. Just experimenting.
+There's no defensive programming for inputs. Just experimenting. If you type a file name ending in .gcode, it will export code you can use directly in your printer
 
 Volume is not yet mapped to any actual volume, just the values that are sent to the extruder.
 You can do a 1x1 grid test to determine the actual value to send the extruder.
@@ -17,3 +17,4 @@ Now I can home the x axis. and move the x axis over to a known 40mm, directly ab
 Homing z puts the syringe at the bottom of the reservoir.
 
 Through some tinkering in pronterface, I determined the max capacity of my syringe(in terms of gcode). It would be a small step further to map to an actual volume. 
+Another step further would be to open serial communication with the printer directly, allowing for location sensing of the syringe through some other means.
