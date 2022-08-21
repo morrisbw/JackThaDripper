@@ -191,11 +191,7 @@ window=Tk()
 mywin=MyWindow(window)
 window.title('JackThaDripper')
 window.geometry("900x600+25+25")
-window2=Tk()
-mywin2=MyWindow(window2)
-window2.title('JackThaDripper2')
-window2.geometry("900x600+25+25")
 window.mainloop()
-window2.mainloop()
+
 
 
